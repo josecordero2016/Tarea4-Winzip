@@ -13,7 +13,7 @@ import com.example.tarea4.R;
 public class adt_datos extends RecyclerView.Adapter<adt_datos.ViewHolder_dts> {
 
     //Datos ficticios solo para rellenar
-    private String[] datos = new String[] {"Uno","Dos"};
+    private String[] datos = new String[] {"Uno","Dos","Tres","Cuatro","Cinco"};
 
     @Override
     public ViewHolder_dts onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {

@@ -43,8 +43,6 @@ public class MainActivity extends AppCompatActivity  {
         setSupportActionBar(toolbar);
 
         NavigationView navigationView = findViewById(R.id.nav_view);
-
-
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
 
 
