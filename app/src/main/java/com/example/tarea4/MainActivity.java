@@ -3,6 +3,8 @@ package com.example.tarea4;
 import android.content.Context;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.text.SpannableString;
+import android.text.style.TextAppearanceSpan;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.MenuItem;
@@ -42,14 +44,7 @@ public class MainActivity extends AppCompatActivity  {
 
         NavigationView navigationView = findViewById(R.id.nav_view);
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Opción interesante", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
 
 
@@ -65,6 +60,29 @@ public class MainActivity extends AppCompatActivity  {
         NavigationUI.setupWithNavController(navigationView, navController);
 
 
+
+
+        Menu menu = navigationView.getMenu();
+
+        MenuItem titulo= menu.findItem(R.id.g1);
+        SpannableString s = new SpannableString(titulo.getTitle());
+        s.setSpan(new TextAppearanceSpan(this, R.style.titulo_items), 0, s.length(), 0);
+        titulo.setTitle(s);
+
+        titulo= menu.findItem(R.id.g2);
+        s = new SpannableString(titulo.getTitle());
+        s.setSpan(new TextAppearanceSpan(this, R.style.titulo_items), 0, s.length(), 0);
+        titulo.setTitle(s);
+
+        titulo= menu.findItem(R.id.g3);
+        s = new SpannableString(titulo.getTitle());
+        s.setSpan(new TextAppearanceSpan(this, R.style.titulo_items), 0, s.length(), 0);
+        titulo.setTitle(s);
+
+        titulo= menu.findItem(R.id.g4);
+        s = new SpannableString(titulo.getTitle());
+        s.setSpan(new TextAppearanceSpan(this, R.style.titulo_items), 0, s.length(), 0);
+        titulo.setTitle(s);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

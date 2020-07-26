@@ -2,80 +2,88 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
-
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/icon_mail"
-            android:title="Todos los recibidos"
+            android:icon="@drawable/icon_pospuestos"
+            android:title="Reciente"
             />
         <item
             android:id="@+id/fragment_correos"
             android:icon="@drawable/icon_principal"
-            android:title="Principal" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_baseline_people_outline_24"
-            android:title="Social" />
-
-
+            android:title="Favoritos" />
 
         <item android:id="@+id/g1"
-            android:title="TODAS LAS ETIQUETAS">
+            android:title="Lugares">
             <menu>
                 <item
+                    android:id="@+id/nav_slideshow"
+                    android:icon="@drawable/icon_archivos"
+                    android:title="Mis archivos" />
+
+                <item
                     android:id="@+id/fragme"
-                    android:icon="@drawable/ic_baseline_star_half_24"
-                    android:title="Correos" />
+                    android:icon="@drawable/icon_almacenamiento"
+                    android:title="Almacenamiento" />
                 <item
                     android:id="@+id/item3"
-                    android:icon="@drawable/icon_pospuestos"
-                    android:title="Pospuestos" />
+                    android:icon="@drawable/icon_fotos"
+                    android:title="Fotos" />
                 <item
                     android:id="@+id/item4"
-                    android:icon="@drawable/icon_importantes"
-                    android:title="Importantes" />
-                <item
-                    android:id="@+id/item5"
-                    android:icon="@drawable/icon_enviados"
-                    android:title="Enviados" />
-                <item
-                    android:id="@+id/item6"
-                    android:icon="@drawable/icon_programados"
-                    android:title="Programados" />
-                <item
-                    android:id="@+id/item7"
-                    android:icon="@drawable/icon_salida"
-                    android:title="Bandeja de salida" />
-                <item
-                    android:id="@+id/item8"
-                    android:icon="@drawable/icon_borradores"
-                    android:title="Borradores" />
-                <item
-                    android:id="@+id/item9"
-                    android:icon="@drawable/icon_todos"
-                    android:title="Todos" />
-                <item
-                    android:id="@+id/item10"
-                    android:icon="@drawable/icon_spam"
-                    android:title="Spam" />
-                <item
-                    android:id="@+id/item11"
-                    android:icon="@drawable/icon_papelera"
-                    android:title="Papelera" />
-                <item
-                    android:id="@+id/item12"
-                    android:icon="@drawable/icon_archivo"
-                    android:title="Archivo" />
-                <item
-                    android:id="@+id/item13"
-                    android:icon="@drawable/icon_deleted"
-                    android:title="Deleted/Calendario" />
+                    android:icon="@drawable/icon_musica"
+                    android:title="Música" />
+            </menu>
+        </item>
+
+        <item android:id="@+id/g2"
+            android:title="Red y Nube"
+            >
+            <menu>
+            <item
+                android:id="@+id/item5"
+                android:icon="@drawable/icon_red"
+                android:title="Red" />
+            <item
+                android:id="@+id/item6"
+                android:icon="@drawable/icon_dropbox"
+                android:title="Dropbox" />
+            <item
+                android:id="@+id/item7"
+                android:icon="@drawable/incon_drive"
+                android:title="Google Drive" />
+            </menu>
+        </item>
+
+        <item android:id="@+id/g3"
+            android:title="Herramientas">
+            <menu>
+            <item
+                android:id="@+id/item8"
+                android:icon="@drawable/icon_corecimage"
+                android:title="Limpiar foto" />
+            <item
+                android:id="@+id/item9"
+                android:icon="@drawable/icon_pc"
+                android:title="Acceder desde el PC" />
+            </menu>
+        </item>
+        <item android:id="@+id/g4"
+            android:title="Configuraciones">
+            <menu>
+            <item
+                android:id="@+id/item10"
+                android:icon="@drawable/icon_comprar"
+                android:title="Comprar" />
+            <item
+                android:id="@+id/item11"
+                android:icon="@drawable/icon_configuraciones"
+                android:title="Configuraciones" />
+            <item
+                android:id="@+id/item12"
+                android:icon="@drawable/icon_salir"
+                android:title="Salir" />
             </menu>
         </item>
     </group>
-
-
-
-
 </menu>
