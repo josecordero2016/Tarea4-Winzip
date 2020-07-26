@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imgPerfil10"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="696dp"
+        android:layout_marginBottom="9dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/fp_foreground" />
+
+    <TextView
+        android:id="@+id/lblCategoria28"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="677dp"
+        android:layout_marginEnd="59dp"
+        android:layout_weight="1"
+        android:text="Welcome to our new shop"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblCategoria29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="695dp"
+        android:layout_marginEnd="42dp"
+        android:layout_weight="1"
+        android:text="Mensaje en dos idiomas, aunque usted no lo crea"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/lblCategoria30"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="708dp"
+        android:layout_marginEnd="0dp"
+        android:layout_weight="1"
+        android:text="11 jul."
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="14dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="743dp"
+        android:layout_marginEnd="18dp"
+        app:srcCompat="@drawable/icon_principal" />
+
+    <TextView
+        android:id="@+id/lblNombre11"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="707dp"
+        android:layout_weight="1"
+        android:text="Zona Móvil"
+        android:textColor="#272727"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgPerfil9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="621dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/fp_foreground" />
+
+    <TextView
+        android:id="@+id/lblCategoria23"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="601dp"
+        android:layout_marginEnd="59dp"
+        android:layout_weight="1"
+        android:text="Nuevas aplicaciones"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblCategoria24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="41dp"
+        android:layout_weight="1"
+        android:text="Descarguelas ya desde este enlace"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/lblCategoria25"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="633dp"
+        android:layout_marginEnd="0dp"
+        android:layout_weight="1"
+        android:text="12 jul."
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="14dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="668dp"
+        android:layout_marginEnd="17dp"
+        app:srcCompat="@drawable/icon_principal" />
+
+    <TextView
+        android:id="@+id/lblNombre10"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="632dp"
+        android:layout_weight="1"
+        android:text="MarketPlace"
+        android:textColor="#272727"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgPerfil8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="471dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/fp_foreground" />
+
+    <ImageView
+        android:id="@+id/imgPerfil7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="547dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/fp_foreground" />
+
+    <TextView
+        android:id="@+id/lblNombre8"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="558dp"
+        android:layout_weight="1"
+        android:text="UTB"
+        android:textColor="#272727"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblCategoria18"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="526dp"
+        android:layout_marginEnd="59dp"
+        android:layout_weight="1"
+        android:text="Deudas postpandemia"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblCategoria19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="545dp"
+        android:layout_marginEnd="41dp"
+        android:layout_weight="1"
+        android:text="Confía en mí, no es un virus ni nada, clicquea el enlace ..."
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/lblCategoria20"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="452dp"
+        android:layout_marginEnd="59dp"
+        android:layout_weight="1"
+        android:text="Pendientes"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblCategoria21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginEnd="41dp"
+        android:layout_weight="1"
+        android:text="Entre a su cuenta ahora mismo, o si no habrá problemas"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="14dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="518dp"
+        android:layout_marginEnd="17dp"
+        app:srcCompat="@drawable/icon_principal" />
+
+    <TextView
+        android:id="@+id/lblCategoria22"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="559dp"
+        android:layout_marginEnd="0dp"
+        android:layout_weight="1"
+        android:text="13 jul."
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="14dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="594dp"
+        android:layout_marginEnd="17dp"
+        app:srcCompat="@drawable/icon_principal" />
+
+    <TextView
+        android:id="@+id/lblNombre9"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="482dp"
+        android:layout_weight="1"
+        android:text="Liberty dot com"
+        android:textColor="#272727"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgPerfil4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="248dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/fp_foreground" />
+
+    <TextView
+        android:id="@+id/lblCategoria10"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="59dp"
+        android:layout_weight="1"
+        android:text="Vídeo representativo"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblCategoria11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="244dp"
+        android:layout_marginEnd="41dp"
+        android:layout_weight="1"
+        android:text="Este es un nuevo vídeo de su servicio contratado reviselo ahora..."
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/imgPerfil5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="320dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/fp_foreground" />
+
+    <TextView
+        android:id="@+id/lblNombre6"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="331dp"
+        android:layout_weight="1"
+        android:text="SRI"
+        android:textColor="#272727"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblCategoria12"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="59dp"
+        android:layout_weight="1"
+        android:text="Pendientes"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblCategoria13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="319dp"
+        android:layout_marginEnd="41dp"
+        android:layout_weight="1"
+        android:text="Entre a su cuenta ahora mismo, o si no habrá problemas"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/imgPerfil6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="396dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/fp_foreground" />
+
+    <TextView
+        android:id="@+id/lblNombre7"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="407dp"
+        android:layout_weight="1"
+        android:text="Mi vecino"
+        android:textColor="#272727"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblCategoria14"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginEnd="59dp"
+        android:layout_weight="1"
+        android:text="Deudas postpandemia"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblCategoria15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="393dp"
+        android:layout_marginEnd="41dp"
+        android:layout_weight="1"
+        android:text="Confía en mí, no es un virus ni nada, clicquea el enlace ..."
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/lblCategoria16"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="0dp"
+        android:layout_weight="1"
+        android:text="17 jul."
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="14dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="295dp"
+        android:layout_marginEnd="17dp"
+        app:srcCompat="@drawable/icon_principal" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="14dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="367dp"
+        android:layout_marginEnd="17dp"
+        app:srcCompat="@drawable/icon_principal" />
+
+    <TextView
+        android:id="@+id/lblCategoria17"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="408dp"
+        android:layout_marginEnd="0dp"
+        android:layout_weight="1"
+        android:text="15 jul."
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblCategoria27"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="484dp"
+        android:layout_marginEnd="0dp"
+        android:layout_weight="1"
+        android:text="14 jul."
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblCategoria26"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="333dp"
+        android:layout_marginEnd="0dp"
+        android:layout_weight="1"
+        android:text="16 jul."
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="14dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="443dp"
+        android:layout_marginEnd="17dp"
+        app:srcCompat="@drawable/icon_principal" />
+
+    <TextView
+        android:id="@+id/lblNombre5"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="259dp"
+        android:layout_weight="1"
+        android:text="Tuenti EC"
+        android:textColor="#272727"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgPerfil3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="175dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/fp_foreground" />
+
+    <TextView
+        android:id="@+id/lblCategoria7"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="59dp"
+        android:layout_weight="1"
+        android:text="Tareas pendientes"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblCategoria8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="41dp"
+        android:layout_weight="1"
+        android:text="Envíelas de inmediato o tendrá mala nota"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/lblCategoria9"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="187dp"
+        android:layout_marginEnd="0dp"
+        android:layout_weight="1"
+        android:text="18 jul."
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="14dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="222dp"
+        android:layout_marginEnd="17dp"
+        app:srcCompat="@drawable/icon_principal" />
+
+    <TextView
+        android:id="@+id/lblNombre4"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="186dp"
+        android:layout_weight="1"
+        android:text="UTEQ"
+        android:textColor="#272727"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgPerfil2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="99dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/fp_foreground" />
+
+    <TextView
+        android:id="@+id/lblNombre3"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="110dp"
+        android:layout_weight="1"
+        android:text="Makerview"
+        android:textColor="#272727"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblCategoria5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="41dp"
+        android:layout_weight="1"
+        android:text="Tenemos nueva información creativa para ti ..."
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/lblCategoria6"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="0dp"
+        android:layout_weight="1"
+        android:text="19 jul."
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="14dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="17dp"
+        app:srcCompat="@drawable/icon_principal" />
+
+    <TextView
+        android:id="@+id/lblCategoria4"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="59dp"
+        android:layout_weight="1"
+        android:text="Bienvenido a la nueva zona"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgPerfil"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="27dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/fp_foreground" />
+
+    <TextView
+        android:id="@+id/lblCategoria"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="59dp"
+        android:layout_weight="1"
+        android:text="Vídeo representativo"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblCategoria2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="41dp"
+        android:layout_weight="1"
+        android:text="Este es un nuevo vídeo de su servicio contratado reviselo ahora..."
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/lblCategoria3"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="0dp"
+        android:layout_weight="1"
+        android:text="20 jul."
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="14dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="17dp"
+        app:srcCompat="@drawable/icon_principal" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="14dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="17dp"
+        app:srcCompat="@drawable/icon_principal" />
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="38dp"
+        android:layout_weight="1"
+        android:text="SIMUL8 Corporation"
+        android:textColor="#272727"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblNombre2"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="13dp"
+        android:layout_weight="1"
+        android:text="PRINCIPAL"
+        android:textColor="#323232"
+        android:textSize="12sp" />
+
+</RelativeLayout>
